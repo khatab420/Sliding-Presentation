@@ -1,0 +1,95 @@
+
+/*reset default styles*/
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+/*styling for the sidebar*/
+.sidebar{
+    width: 180px;
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+/*styling the main-content*/
+.main-content{
+    margin-left: 250px;
+    padding: 20px;
+}
+
+
+/*styling the bottom-nav*/
+
+.bottom-nav{
+    position: fixed;
+    bottom: 0;
+    left: 180px;
+    width: 100%;
+    background-color: #1ba55b;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*styling for the navigation buttons*/
+
+.nav-button{
+ background-color: transparent;
+ color: #fff;
+ border: none;
+ padding: 10px;
+ margin: 0 10px;
+ cursor: pointer;
+ background-repeat: no-repeat;
+ background-size: 20px 20px;
+ background-position: center;
+ text-indent: -9999px;
+}
+
+.count{
+    background-color: transparent;
+ color: #fff;
+ border: none;
+ padding: 10px;
+ margin: 0 10px;
+ cursor: pointer;
+ background-repeat: no-repeat;
+ background-size: 20px 20px;
+ background-position: center;
+ 
+}
+
+/* arrow icons for the buttons */
+.right-arrow{
+    background-image: url('right-arrow.png');
+}
+.left-arrow{
+    background-image: url('left-arrow.png');
+}
+
+.nav-button:hover {
+    background-color: #555;
+}
+
+
+
+.structure {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    background-color: beige;
+    margin: 10px; /* Optional margin for spacing between squares */
+    text-align: center;
+    vertical-align: top; /* Add this property to align the elements vertically at the top */
+    padding: 10px; /* Add padding for better text alignment within each .structure */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.list{
+    color: red;
+    text-shadow: #1ba55b;
+}
